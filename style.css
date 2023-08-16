@@ -1,0 +1,145 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(GrotleyRegular.otf);
+}
+
+body{
+  overflow: hidden; /* Hide horizontal scrollbar */
+  margin: 0; /* Remove default body margin to avoid unexpected gaps */
+  /**/
+  font-family:myFirstFont;
+}
+
+.canvas {
+  position: relative;
+  width: 200px;
+  background-color: blue;
+}
+
+.header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #4c8022;
+  width: 100%; /* Cover the entire width of the viewport */
+  position: fixed; /* Fixed position to keep it at the top */
+  top: 0; /* Position it at the top of the viewport */
+  z-index: 1000; /* Add a higher z-index to ensure it's above other content */
+  border-bottom: 20px solid #ffd500; 
+}
+
+.headerButton {
+  padding: 1.5%;
+  color: black;
+  border: 3px solid black;
+  border-color: black;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  position: absolute;
+  top: 75%;
+  
+  width: 100%;
+  background-color: #4c8022;
+  border-top: 20px solid #ffd600;
+}
+
+.footer h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  margin-top: 13.5px;
+}
+
+.fact-container {
+  width: 90%;
+  height: 100px;
+  margin: 0 auto; 
+  margin-bottom: 15px;
+  background-color: #ffd600;
+  text-align: center;
+  position: relative;
+}
+
+#circle-image1 {
+  position: absolute;
+  width: 20px; 
+  height: 20px; 
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#circle-image2 {
+  position: absolute;
+  width: 20px; 
+  height: 20px; 
+  top: 0;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#circle-image3 {
+  position: absolute;
+  width: 20px; 
+  height: 20px; 
+  bottom: 0;
+  left: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+#circle-image4 {
+  position: absolute;
+  width: 20px; 
+  height: 20px; 
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+#footprint {
+  background-color: #ffd600;
+  font-family: myFirstFont;
+  font-size: 20px; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#forest_fact {
+  height: 50px; /* Adjust to match your element's height */
+  line-height: 90px; /* Should match the height */
+  text-align: center;
+  font-size: 25px;
+}
+
+#destroy {
+  background-color: red;
+  font-family: myFirstFont;
+  font-size: 20px; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#plant {
+  background-color: #ffd600;
+  font-family: myFirstFont;
+  font-size: 20px; 
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

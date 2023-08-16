@@ -1,0 +1,44 @@
+{
+  "deforestation_facts": [
+    {
+      "id": 1,
+      "fact": "Deforestation contributes to approximately 10% of worldwide carbon emissions."
+    },
+    {
+      "id": 2,
+      "fact": "Every year, about 18 million acres (7.3 million hectares) of forest are lost."
+    },
+    {
+      "id": 3,
+      "fact": "The world's rainforests could completely vanish in a hundred years at the current rate of deforestation."
+    },
+    {
+      "id": 4,
+      "fact": "Deforestation is a key driver of species extinction in terrestrial habitats."
+    },
+    {
+      "id": 5,
+      "fact": "Logging, agriculture, and livestock ranching are the leading causes of forest destruction."
+    },
+    {
+      "id": 6,
+      "fact": "Forests are home to 80% of Earth's terrestrial biodiversity."
+    },
+    {
+      "id": 7,
+      "fact": "More than a quarter of modern medicines originate from tropical forest plants."
+    },
+    {
+      "id": 8,
+      "fact": "1.6 billion people rely on forests for their livelihoods, including 60 million indigenous peoples."
+    },
+    {
+      "id": 9,
+      "fact": "Half of the world’s tropical forests have already been cleared."
+    },
+    {
+      "id": 10,
+      "fact": "Forests play a critical role in mitigating climate change by acting as a carbon sink."
+    }
+  ]
+}

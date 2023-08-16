@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+</head>
+
+<body>
+  <!-- Header for carbon footprint and the buttons -->
+  <div class="header">
+    <div id="footprint" class="headerButton"> Carbon Footprint: </div>
+
+    <!-- The buttons -->
+    <button id="plant" class="headerButton">Plant</button>
+    <button id="destroy" class="headerButton">Destroy</button>
+    <!-- gets changed using js -->
+    <img src="Deforester.png" alt="" id="logo">
+  </div>
+
+  <!-- There are two footers for two rectangles -->
+  <div class="footer">
+    <!-- The paragraph with the id is where we migrate our facts from our        json file -->
+    <h1>Facts</h1>
+    <div class="fact-container">
+      <p id="forest_fact">Logging, agriculture, and livestock ranching are the leading causes of forest destruction</p>
+      <img src="grey_circle.png" alt="" id="circle-image1">
+      <img src="grey_circle.png" alt="" id="circle-image2">
+      <img src="grey_circle.png" alt="" id="circle-image3">
+      <img src="grey_circle.png" alt="" id="circle-image4">
+    </div>
+  </div>
+
+  <!--Background image-->
+  <div id="grass">
+  </div>
+
+  <!--Referencing script at the bottom-->
+  <script src="script.js"></script>
+</body>
+
+</html>

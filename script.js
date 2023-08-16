@@ -34,7 +34,7 @@ function setup() {
    //  }
      
   // On click of plantBtn, clear trees currently and add them
-  plantButton.onclick = function() {
+  plantButton.onclick = function() { // opacity
     background(141, 212, 85);
     trees = []; // clearing trees
     clickedTrees = []; // clearing the clicked trees
@@ -86,7 +86,7 @@ function draw() {
     //   continue;
     // }
   
-}
+}  
 
 
 

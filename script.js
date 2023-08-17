@@ -19,7 +19,7 @@ function preload() {
 // setup
 function setup() {
   // Canvas w green background (responsive)
-  createCanvas(windowWidth, windowHeight * .8);
+  createCanvas(windowWidth, windowHeight * .70);
   background(141, 212, 85);
 
   // getting buttons from page

@@ -97,7 +97,7 @@ a {
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    padding-left:10px;
+    padding-left:20px;
     padding-right:10px;
 }
 
@@ -111,8 +111,14 @@ a {
     background-color:#4E3B0C;
 }
 
+#creatorsColumned {
+  align-content: center;
+}
+
 .creatorsRow {
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-left: -8%;
 }

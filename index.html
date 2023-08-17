@@ -1,45 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>repl.it</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forest Experience</title>
+  <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+  <link rel="stylesheet" href="indexStyle.css">
+  <link rel="icon" href="images/Deforester-Favicon.png">
 </head>
 
 <body>
-  <!-- Header for carbon footprint and the buttons -->
-  <div class="header">
-    <div id="footprint" class="headerButton"> Carbon Footprint: </div>
+  <img id="forest" src="images/Forest Back.jpg" alt="Forest Illustration">
 
-    <!-- The buttons -->
-    <button id="plant" class="headerButton">Plant</button>
-    <button id="destroy" class="headerButton">Destroy</button>
-    <!-- gets changed using js -->
-    <img src="Deforester.png" alt="" id="logo">
+  <h1 id="title">Forest Experience</h1>
+
+  <div class="bordered" id="interactive">
+    <a href="deforester.html"><img id="deforesterLogo" src="images/Deforester.png" alt="Deforester Logo"></a>
+
+    <h1 id="experience">An interactive experience on the effects of deforestation.</h1>
   </div>
 
-  <!-- There are two footers for two rectangles -->
-  <div class="footer">
-    <!-- The paragraph with the id is where we migrate our facts from our        json file -->
-    <h1>Facts</h1>
-    <div class="fact-container">
-      <p id="forest_fact">Logging, agriculture, and livestock ranching are the leading causes of forest destruction</p>
-      <img src="grey_circle.png" alt="" id="circle-image1">
-      <img src="grey_circle.png" alt="" id="circle-image2">
-      <img src="grey_circle.png" alt="" id="circle-image3">
-      <img src="grey_circle.png" alt="" id="circle-image4">
+  <div class="bordered" id="uCanDo">
+    <h1 class="centered">What You Can Do</h1>
+    <div id="togetherColumns">
+      <div class="columns">
+        <h1>Recycle</h1>
+
+        <p>Recycling is one of the easiest things you can do. Given all the plastic that's around in the world, it's
+          easy to pick up another plastic bag at a supermarket. But it's even easier to be prepared with your own, more
+          sustainable bag. Plastic will continue to have its place in our world, but that makes it that much more
+          important that we strive not to add to its pollution.</p>
+      </div>
+
+      <div class="columns">
+        <h1>Planting</h1>
+
+        <p>The environment gives so much to us, planting is the best way to give back. Not just to the environment, but
+          to ourselves too. From absorbing carbon emissions to just adding to a nice view in a park, nature is surely
+          more than a breath of fresh air. Planting, even just taking care of a small tulip, will brighten your
+          environment, and in turn everyone else's.</p>
+      </div>
+
+      <div class="columns">
+        <h1>Be Sustainable</h1>
+
+        <p>This is more of a mindset than a method or clear-cut action to take, but it is the most important part of
+          helping the environment - arguably because it's not only benefitting nature, but also yourself. Using what you
+          already have and making the most of it instead of making a purchase for something new will help you be kinder
+          to nature - and your wallet.</p>
+      </div>
     </div>
   </div>
 
-  <!--Background image-->
-  <div id="grass">
+  <div class="bordered" id="furtherInfo">
+    <h1 class="centered">Further Info</h1>
+
+    <div class="linkColumns">
+
+      <div class="linkRow">
+        <h1 class="leftAlign"><a
+            href="https://education.nationalgeographic.org/resource/resource-library-human-impacts-environment/"
+            target="_blank">National Geographic</a></h1>
+
+        <p class="furtherText">This link will provide you with a lot more information on the effects that human industry
+          have on the environment.</p>
+      </div>
+
+      <div class="linkRow">
+        <h1><a
+            href="https://www.amnh.org/research/center-for-biodiversity-conservation/resources-and-publications/what-you-can-do"
+            target="_blank">American Museum of Natural History</a></h1>
+
+        <p class="furtherText">For more information regarding action that we can take in order to better the environment
+          for ourselves and for others.</p>
+      </div>
+
+    </div>
   </div>
 
-  <!--Referencing script at the bottom-->
-  <script src="script.js"></script>
+  <div class="bordered" id="contactUs">
+    <h1 class="centered">Creators</h1>
+
+    <div id="creatorsColumned">
+      <div class="creatorsRow">
+        <h1>Jonathan Vasquez</h1>
+        <h1 id="vikram">Vikram Karamsetty</h1>
+        <h1>Qing Chen</h1>
+      </div>
+
+      <div class="creatorsRow">
+        <h1>Justin St. Clair</h1>
+        <h1>Rayvon Pleasant</h1>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
